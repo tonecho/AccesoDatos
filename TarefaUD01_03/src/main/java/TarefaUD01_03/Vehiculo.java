@@ -1,3 +1,5 @@
+package TarefaUD01_03;
+
 import java.io.Serializable;
 public class Vehiculo implements Serializable {
     /**
@@ -10,10 +12,9 @@ public class Vehiculo implements Serializable {
     private transient Double deposito;
     private String modelo;
 
-    public Vehiculo(String matricula, String marca, Double deposito, String modelo) {
+    public Vehiculo(String matricula, String marca, String modelo) {
         this.matricula = matricula;
         this.marca = marca;
-        this.deposito = deposito;
         this.modelo = modelo;
     }
 
